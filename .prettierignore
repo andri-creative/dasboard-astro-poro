@@ -1,0 +1,16 @@
+# Ignore album pages that have complex JSX
+src/pages/album/
+
+# Ignore Settings components (may have complex JSX)
+src/components/layout/Settings/
+
+# Ignore public assets (third-party code)
+public/
+
+# Ignore node_modules
+node_modules
+
+# Ignore build output
+dist
+.astro
+
